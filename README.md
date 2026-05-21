@@ -18,11 +18,16 @@
 | 7 | [Functions](#chapter-7--functions) | `def`, parameters, default args, `return` |
 | 8 | [File Handling](#chapter-8--file-handling) | `open()`, read/write modes, `with`, `os` module |
 | 9 | [OOP — Classes & Objects](#chapter-9--oop--classes--objects) | Classes, objects, `__init__`, `self`, methods |
-| — | [Projects](#-projects) | Expense Tracker, Chatbot, Clock, Text Editor, Slideshow |
+| — | [Projects](#projects) | Overview of projects |
+| P1 | [Project 1 — Expense Tracker](#project-1--expense-tracker) | CLI Expense Tracker using Lists & Dictionaries |
+| P2 | [Project 2 — Rule-Based AI Chatbot](#project-2--rule-based-ai-chatbot) | AI Chatbot using keyword matching |
+| P3 | [Project 3 — Digital Clock (GUI)](#project-3--digital-clock-gui) | Real-time GUI clock using Tkinter |
+| P4 | [Project 4 — Simple Text Editor (GUI)](#project-4--simple-text-editor-gui) | GUI text editor using Tkinter |
+| P5 | [Project 5 — Photo Slideshow Album (GUI)](#project-5--photo-slideshow-album-gui) | Image slideshow using Tkinter + PIL |
 
 ---
 
-## Chapter 0 — Introduction & Print | [Back to Menu🔝](#Table-of-Contents)
+## <a id="chapter-0--introduction--print"></a>Chapter 0 — Introduction & Print | [Back to Menu🔝](#Table-of-Contents)
 
 ### What is `print()`?
 
@@ -46,7 +51,7 @@ print(("Harshit Singh" + "\n") * 10)
 
 ---
 
-## Chapter 1 — Variables & User Input | [Back to Menu🔝](#Table-of-Contents)
+## <a id="chapter-1--variables--user-input"></a>Chapter 1 — Variables & User Input | [Back to Menu🔝](#Table-of-Contents)
 
 ### Variables
 
@@ -87,7 +92,7 @@ print(f"The area of the circle is: {area}")
 
 ---
 
-## Chapter 2 — Data Types, Operators & Type Casting | [Back to Menu🔝](#Table-of-Contents)
+## <a id="chapter-2--data-types-operators--type-casting"></a>Chapter 2 — Data Types, Operators & Type Casting | [Back to Menu🔝](#Table-of-Contents)
 
 ### Data Types
 
@@ -196,7 +201,7 @@ print(type(convertedValue))  # <class 'float'>
 
 ---
 
-## Chapter 3 — Strings | [Back to Menu🔝](#Table-of-Contents)
+## <a id="chapter-3--strings"></a>Chapter 3 — Strings | [Back to Menu🔝](#Table-of-Contents)
 
 ### String Basics
 
@@ -275,7 +280,7 @@ print("Hello \t World") # prints with tab
 
 ---
 
-## Chapter 4 — Conditionals, Lists & Tuples | [Back to Menu🔝](#Table-of-Contents)
+## <a id="chapter-4--conditionals-lists--tuples"></a>Chapter 4 — Conditionals, Lists & Tuples | [Back to Menu🔝](#Table-of-Contents)
 
 ### Conditional Statements (`if / elif / else`)
 
@@ -351,7 +356,7 @@ print(studentTuple.count("Divya"))  # 2
 
 ---
 
-## Chapter 5 — Dictionaries & Sets | [Back to Menu🔝](#Table-of-Contents)
+## <a id="chapter-5--dictionaries--sets"></a>Chapter 5 — Dictionaries & Sets | [Back to Menu🔝](#Table-of-Contents)
 
 ### Dictionaries
 
@@ -403,7 +408,7 @@ print(len(uniqueLangs))  # 4 unique languages
 
 ---
 
-## Chapter 6 — Loops | [Back to Menu🔝](#Table-of-Contents)
+## <a id="chapter-6--loops"></a>Chapter 6 — Loops | [Back to Menu🔝](#Table-of-Contents)
 
 ### While Loop
 
@@ -489,7 +494,7 @@ print("Sum =", total)
 
 ---
 
-## Chapter 7 — Functions | [Back to Menu🔝](#Table-of-Contents)
+## <a id="chapter-7--functions"></a>Chapter 7 — Functions | [Back to Menu🔝](#Table-of-Contents)
 
 ### What is a Function?
 
@@ -550,7 +555,7 @@ print(f"Vowels: {v}, Consonants: {c}")
 
 ---
 
-## Chapter 8 — File Handling | [Back to Menu🔝](#Table-of-Contents)
+## <a id="chapter-8--file-handling"></a>Chapter 8 — File Handling | [Back to Menu🔝](#Table-of-Contents)
 
 ### File Modes
 
@@ -632,7 +637,7 @@ import os
 
 ---
 
-## Chapter 9 — OOP — Classes & Objects | [Back to Menu🔝](#Table-of-Contents)
+## <a id="chapter-9--oop--classes--objects"></a>Chapter 9 — OOP — Classes & Objects | [Back to Menu🔝](#Table-of-Contents)
 
 ### What is a Class?
 
@@ -696,9 +701,9 @@ print(s1.average())  # 94.67
 
 ---
 
-## 🚀 Projects
+## 🚀 Projects <a id="projects"></a>
 
-### Project 1 — 💰 Expense Tracker
+### <a id="project-1--expense-tracker"></a>Project 1 — 💰 Expense Tracker | [Back to Menu🔝](#Table-of-Contents)
 
 A menu-driven CLI app to add, view, and total expenses using **lists of dictionaries**.
 
@@ -747,7 +752,7 @@ while True:
 
 ---
 
-### Project 2 — 🤖 Rule-Based AI Chatbot
+### <a id="project-2--rule-based-ai-chatbot"></a>Project 2 — 🤖 Rule-Based AI Chatbot | [Back to Menu🔝](#Table-of-Contents)
 
 A chatbot that greets based on time-of-day and responds using a keyword-matching dictionary.
 
@@ -791,7 +796,7 @@ while True:
 
 ---
 
-### Project 3 — 🕐 Digital Clock (GUI)
+### <a id="project-3--digital-clock-gui"></a>Project 3 — 🕐 Digital Clock (GUI) | [Back to Menu🔝](#Table-of-Contents)
 
 A real-time digital clock built with **Tkinter**.
 
@@ -819,7 +824,7 @@ root.mainloop()
 
 ---
 
-### Project 4 — 📝 Simple Text Editor (GUI)
+### <a id="project-4--simple-text-editor-gui"></a>Project 4 — 📝 Simple Text Editor (GUI) | [Back to Menu🔝](#Table-of-Contents)
 
 A Notepad-like text editor with New, Open, Save, and Exit using **Tkinter + filedialog**.
 
@@ -870,7 +875,7 @@ root.mainloop()
 
 ---
 
-### Project 5 — 🖼️ Photo Slideshow Album (GUI)
+### <a id="project-5--photo-slideshow-album-gui"></a>Project 5 — 🖼️ Photo Slideshow Album (GUI) | [Back to Menu🔝](#Table-of-Contents)
 
 An image slideshow player using **Tkinter + PIL (Pillow)**.
 
