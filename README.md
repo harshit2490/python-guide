@@ -4,7 +4,7 @@
 
 ---
 
-## 📑 Table of Contents
+## 📑 Table of Contents <a id="Table-of-Contents"></a>
 
 | # | Topic | Key Concepts |
 |---|-------|--------------|
@@ -22,7 +22,7 @@
 
 ---
 
-## Chapter 0 — Introduction & Print
+## Chapter 0 — Introduction & Print | [Back to Menu🔝](#Table-of-Contents)
 
 ### What is `print()`?
 
@@ -46,7 +46,7 @@ print(("Harshit Singh" + "\n") * 10)
 
 ---
 
-## Chapter 1 — Variables & User Input
+## Chapter 1 — Variables & User Input | [Back to Menu🔝](#Table-of-Contents)
 
 ### Variables
 
@@ -87,7 +87,7 @@ print(f"The area of the circle is: {area}")
 
 ---
 
-## Chapter 2 — Data Types, Operators & Type Casting
+## Chapter 2 — Data Types, Operators & Type Casting | [Back to Menu🔝](#Table-of-Contents)
 
 ### Data Types
 
@@ -196,7 +196,7 @@ print(type(convertedValue))  # <class 'float'>
 
 ---
 
-## Chapter 3 — Strings
+## Chapter 3 — Strings | [Back to Menu🔝](#Table-of-Contents)
 
 ### String Basics
 
@@ -275,7 +275,7 @@ print("Hello \t World") # prints with tab
 
 ---
 
-## Chapter 4 — Conditionals, Lists & Tuples
+## Chapter 4 — Conditionals, Lists & Tuples | [Back to Menu🔝](#Table-of-Contents)
 
 ### Conditional Statements (`if / elif / else`)
 
@@ -351,7 +351,7 @@ print(studentTuple.count("Divya"))  # 2
 
 ---
 
-## Chapter 5 — Dictionaries & Sets
+## Chapter 5 — Dictionaries & Sets | [Back to Menu🔝](#Table-of-Contents)
 
 ### Dictionaries
 
@@ -403,7 +403,7 @@ print(len(uniqueLangs))  # 4 unique languages
 
 ---
 
-## Chapter 6 — Loops
+## Chapter 6 — Loops | [Back to Menu🔝](#Table-of-Contents)
 
 ### While Loop
 
@@ -489,7 +489,7 @@ print("Sum =", total)
 
 ---
 
-## Chapter 7 — Functions
+## Chapter 7 — Functions | [Back to Menu🔝](#Table-of-Contents)
 
 ### What is a Function?
 
@@ -550,7 +550,7 @@ print(f"Vowels: {v}, Consonants: {c}")
 
 ---
 
-## Chapter 8 — File Handling
+## Chapter 8 — File Handling | [Back to Menu🔝](#Table-of-Contents)
 
 ### File Modes
 
@@ -632,7 +632,7 @@ import os
 
 ---
 
-## Chapter 9 — OOP — Classes & Objects
+## Chapter 9 — OOP — Classes & Objects | [Back to Menu🔝](#Table-of-Contents)
 
 ### What is a Class?
 
