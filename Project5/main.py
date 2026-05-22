@@ -9,12 +9,10 @@ root.geometry("500x500")
 
 # List of Image Paths 
 image_paths= [
-    r"/Users/saumya/Desktop/Album/img0.jpeg",
-    r"/Users/saumya/Desktop/Album/img1.JPG",
-    r"/Users/saumya/Desktop/Album/img2.JPG",
-    r"/Users/saumya/Desktop/Album/img3.jpeg",
-    r"/Users/saumya/Desktop/Album/img4.jpg",
-    r"/Users/saumya/Desktop/Album/img5.jpeg",
+    r"/Users/harshit.singh/Pictures/Wallpapers/A.jpeg",
+    r"/Users/harshit.singh/Pictures/Wallpapers/B.jpeg",
+    r"/Users/harshit.singh/Pictures/Wallpapers/C.jpeg",
+    r"/Users/harshit.singh/Pictures/Wallpapers/D.jpeg",
 ]
 
 image_size= (700, 700)
